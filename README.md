@@ -9,8 +9,13 @@
 
 ## run
 1. 'docker-compose up'
-1. 'curl -X POST -H "Content-Type: application/json" -d '{"seed_text":"交通量調査", "beam_depth":3}' http://localhost:5000/predict
-'
+1. 'curl -X POST -H "Content-Type: application/json" -d \
+'{"seed_text":"交通量調査", "beam_depth":3}'\
+ http://localhost:5000/predict
+' 
+	1. seed_text:生成の元になる文章。これの続きを生成する。
+	1. beam_depth:生成する深さ。続きを何単語予測するか
+
 1. 
 1. 
 1. 
