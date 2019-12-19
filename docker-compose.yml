@@ -1,0 +1,8 @@
+version: '3'
+services:
+  lyric:
+    build:
+      context: ./lyric
+      dockerfile: ./docker/Dockerfile
+    ports:
+    - "5000:5000"
