@@ -7,6 +7,15 @@
 1. 歌唱
 するシステムの構築を目指します。
 
+## run
+1. 'docker-compose up'
+1. 'curl -X POST -H "Content-Type: application/json" -d '{"seed_text":"交通量調査", "beam_depth":3}' http://localhost:5000/predict
+'
+1. 
+1. 
+1. 
+
+
 ## 作詞 lyric generation
 - [ ] 文書生成についてのサーベイ
 - [ ] 公開されているモデルのテスト
