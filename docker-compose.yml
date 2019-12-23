@@ -6,3 +6,14 @@ services:
       dockerfile: ./docker/Dockerfile
     ports:
     - "5000:5000"
+    volumes:
+    - ./lyric/src:/home/app/lyric/src
+  voice:
+    build:
+      context: ./voice
+      dockerfile: ./docker/Dockerfile
+    ports:
+    - "5001:5001"
+    volumes:
+    - ./voice/src:/home/app/voice/src
+    - ./voice/wav:/home/app/voice/wav
