@@ -1,10 +1,10 @@
 import flask
 import os
 import sys
-pwd = os.path.dirname(__file__)
-sys.path.append(pwd)
-print(sys.path)
-from tts import text2wav
+ROOT = os.path.dirname(__file__)
+sys.path.append(ROOT)
+import json
+from text_generator import text_generate
 # initialize our Flask application and pre-trained model
 app = flask.Flask(__name__)
 app.config["JSON_AS_ASCII"]=False
@@ -16,7 +16,7 @@ def load_model():
 
     print(' * Loading end')
 
-@app.route("/tts", methods=["POST"])
+@app.route("/generate", methods=["POST"])
 def predict():
     response = {
         "success": False,
@@ -26,7 +26,10 @@ def predict():
     if flask.request.method == "POST":
         # read feature from json
         input_text = flask.request.get_json().get("text")
-        text2wav(input_text)
+        
+
+        response["generated_text"]=text_generate(input_text)
+
         # indicate that the request was a success
         response["success"] = True
     # return the data dictionary as a JSON response
@@ -36,4 +39,4 @@ def predict():
 if __name__ == "__main__":
     load_model()
     print(" * Flask starting server...")
-    app.run(host='0.0.0.0',port=5001)
+    app.run(host='0.0.0.0', port=5000)
