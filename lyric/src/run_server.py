@@ -1,7 +1,8 @@
 import flask
 import os
 import sys
-ROOT = os.path.dirname(__file__)
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 sys.path.append(ROOT)
 import json
 from text_generator import text_generate
@@ -26,9 +27,13 @@ def predict():
     if flask.request.method == "POST":
         # read feature from json
         input_text = flask.request.get_json().get("text")
-        
+        beam_width = flask.request.get_json().get("beam_width",5)
+        is_random_insert = flask.request.get_json().get("is_random_insert", True)
+        is_add = flask.request.get_json().get("is_add", True)
+        add_depth = flask.request.get_json().get("add_depth",3)
 
-        response["generated_text"]=text_generate(input_text)
+
+        response["generated_text"]=text_generate(input_text ,beam_width, is_random_insert ,is_add, add_depth)
 
         # indicate that the request was a success
         response["success"] = True

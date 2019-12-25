@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9559cd59-fa02-406b-ad29-78ebd68b6429" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lyric/src/download_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lyric/src/run_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lyric/src/text_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lyric/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lyric/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lyric/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/voice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lyric/.idea/lyric.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/.Dockerfile.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/run_server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tts.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test_path.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lyric/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lyric/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lyric/src/download_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lyric/src/download_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lyric/src/run_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lyric/src/run_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lyric/src/text_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lyric/src/text_generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/run_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/run_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tts.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/run_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="37" lean-forward="true" selection-end-line="38" selection-end-column="37" />
+            <state relative-caret-position="45">
+              <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -41,8 +35,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+            <state relative-caret-position="45">
+              <caret line="3" column="18" selection-start-line="3" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test_path.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -69,20 +75,15 @@
         <option value="$PROJECT_DIR$/script/jtalk.py" />
         <option value="$PROJECT_DIR$/script/run_server.py" />
         <option value="$PROJECT_DIR$/script/exapmle.py" />
+        <option value="$PROJECT_DIR$/src/tts.py" />
         <option value="$PROJECT_DIR$/src/run_server.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/src/test_path.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="364" />
-    <option name="y" value="162" />
+    <option name="x" value="465" />
+    <option name="y" value="45" />
     <option name="width" value="1316" />
     <option name="height" value="907" />
   </component>
@@ -160,15 +161,15 @@
       <workItem from="1577086403185" duration="315000" />
       <workItem from="1577089907012" duration="97000" />
       <workItem from="1577090006714" duration="1000" />
-      <workItem from="1577154380529" duration="604000" />
+      <workItem from="1577154380529" duration="3891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9598000" />
+    <option name="totallyTimeSpent" value="12885000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="364" y="162" width="1316" height="907" extended-state="0" />
+    <frame x="465" y="45" width="1316" height="907" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27315542" />
@@ -215,22 +216,32 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jtalk.py" />
-    <entry file="file://$PROJECT_DIR$/src/run_server.py">
+    <entry file="file://$PROJECT_DIR$/src/tts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="37" lean-forward="true" selection-end-line="38" selection-end-column="37" />
+        <state relative-caret-position="45">
+          <caret line="3" column="18" selection-start-line="3" selection-end-line="4" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tts.py">
+    <entry file="file://$PROJECT_DIR$/src/test_path.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+        <state relative-caret-position="60">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/run_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>

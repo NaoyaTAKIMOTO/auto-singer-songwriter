@@ -1,9 +1,7 @@
 import os
 import sys
 
-
-
-ROOT=os.path.dirname(os.path.dirname(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 print("path:"+ROOT)
 
 dict_path = os.path.join(ROOT,"downloads/data/lang_1phn/train_no_dev_units.txt")

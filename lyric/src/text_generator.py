@@ -1,6 +1,7 @@
 import os
 import sys
-ROOT = os.path.dirname(os.path.dirname(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 import torch
 import numpy as np
 import random

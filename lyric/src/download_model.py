@@ -1,6 +1,7 @@
 import os
 import sys
-ROOT = os.path.dirname(os.path.dirname(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 
 from transformers import BertJapaneseTokenizer
 tokenizer = BertJapaneseTokenizer.from_pretrained('bert-base-japanese-whole-word-masking')

@@ -7,7 +7,7 @@ RUN \
 useradd --user-group --create-home --shell /bin/false $USER;\
 mkdir $PROJECT;
 WORKDIR $PROJECT
-COPY src/  $PROJECT/
+COPY src/  $PROJECT/src
 RUN apt-get update && apt-get install -y vim git make gcc wget curl cmake
 RUN git clone https://github.com/espnet/espnet.git
 RUN apt-get install -y libsndfile1-dev
